@@ -24,4 +24,4 @@ new_image_size = (image.size[0] * scale_factor, image.size[1] * scale_factor)
 image_resized_better = image.resize(new_image_size)
 
 # display
-image_resized_better.show()
+image_flip_horizontal.show()
